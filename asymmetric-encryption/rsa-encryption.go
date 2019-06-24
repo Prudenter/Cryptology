@@ -1,16 +1,16 @@
 /**
-* @Author: ASlowPerson  
+* @Author: ASlowPerson
 * @Date: 19-6-23 下午9:59
-*/
+ */
 package main
 
 import (
+	"crypto/rand"
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
-	"os"
 	"fmt"
-	"crypto/rand"
+	"os"
 )
 
 //创建秘钥对，自己指定位数，位数越大，越安全，同时效率也越低
@@ -85,4 +85,3 @@ func main() {
 		return
 	}
 }
-
