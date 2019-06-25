@@ -9,7 +9,7 @@
 
 ## 2. 使用私钥可以生成csr:
 
-   > openssl req -new -key server.key -out server.csr,  //会引导输入信息
+   > openssl req -new -key server.key -out server.csr  //会引导输入信息
 
 ## 3. 查看csr详情:
 
